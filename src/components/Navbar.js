@@ -21,10 +21,10 @@ function Navbar(){
                     </Link>
                 </div>
                 <div className="redes">
-                    <a href="https://www.instagram.com/myklikstore" className="redes-link">
+                    <a href="https://www.instagram.com/myklikstore" className="redes-link" target="_blank">
                         <img src="/icon/instagram-bln.png" alt="logo-instagram" className="redes-logo"/>
                     </a>
-                    <a href="https://www.tiktok.com/@myklikstore" className="redes-link">
+                    <a href="https://www.tiktok.com/@myklikstore" className="redes-link" target="_blank">
                         <img src="/icon/tik-tok-bln.png" alt="logo-tiktoc" className="redes-logo"/>
                     </a>
                 </div>
