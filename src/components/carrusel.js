@@ -7,9 +7,9 @@ export default function Carrusel(){
     console.log("✅ Carrusel montado");
 
     const baners = [
-        process.env.PUBLIC_URL + "/img/Banner1.jpg",
-        process.env.PUBLIC_URL + "/img/Banner2.jpg",
-        process.env.PUBLIC_URL + "/img/Banner3.jpg",
+        "/img/Banner1.jpg",
+        "/img/Banner2.jpg",
+        "/img/Banner3.jpg",
     ];
 
     const [index, setIndex] = useState(0);
