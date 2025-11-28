@@ -203,7 +203,7 @@ body{
 /* Sección nosotros */
 
 .nosotros{
-    background-image: url('../img/banner-categoria.png');
+    background-image: url("../img/banner-nosotros.jpg");
     background-size: cover;
     width: 100%;
     height: 450px;
@@ -437,4 +437,39 @@ body{
 .link-catalogo:hover{
     color: var(--colorPrimario);
     border-bottom: 2px solid var(--colorPrimario);
+}
+
+.precio{
+    font-weight: bold;
+    color: #00ff9c;
+    margin-top: 5px;
+}
+
+.descripcion{
+    font-size: 0.85rem;
+    opacity: 0.8;
+}
+
+.producto-detalle{
+    display: flex;
+    gap: 40px;
+    padding: 40px;
+    align-items: center;
+}
+
+.producto-detalle img{
+    width: 300px;
+    border-radius: 10px;
+}
+
+.info-producto{
+    max-width: 400px;
+}
+
+.btn-comprar{
+    background: #00ff9c;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 15px;
 }
