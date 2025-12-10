@@ -29,7 +29,11 @@ export default function Producto(){
             <h2>{producto.nombre}</h2>
             <p>{producto.descripcion}</p>
             <h3>${producto.precio.toLocaleString("es-CO")}</h3>
-            <button className="btn-comprar">Agregar al carrito</button>
+            <a className="btn-comprar"
+                href={`https://wa.me/573242111830?text=${encodeURIComponent(
+                    `Hola, vengo desde la página web y estoy interesado en el producto: ${producto.nombre}`
+                )}`} target="_blank">Pregunta por él
+            </a>
         </div>
 
         </section>
