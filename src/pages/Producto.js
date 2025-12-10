@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import "../assets/css/style.css";
+import Footer from "../components/Footer";
 
 export default function Producto(){
 

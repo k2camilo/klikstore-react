@@ -41,9 +41,10 @@ function Navbar(){
             <div className="contenedor-menu">
                 <ul id="menu-lista" className={`lista ${open ? "is-open" : ""}`}>
                     <li className="lista-opcion"><Link to="/" onClick={closeMenu}>Inicio</Link></li>
-                    <li className="lista-opcion"><Link to="/nosotros" onClick={closeMenu}>Nosotros</Link></li>
                     <li className="lista-opcion"><Link to="/catalogo" onClick={closeMenu}>Catalogo</Link></li>
-                    <li className="lista-opcion"><Link to="/blog" onClick={closeMenu}>Blog</Link></li>
+                    <li className="lista-opcion"><Link to="/catalogo" onClick={closeMenu}>Servicios</Link></li>
+                    <li className="lista-opcion"><Link to="/blog" onClick={closeMenu}>Blog</Link></li>                    
+                    <li className="lista-opcion"><Link to="/nosotros" onClick={closeMenu}>Nosotros</Link></li>
                     <li className="lista-opcion"><Link to="/contacto" onClick={closeMenu}>Contacto</Link></li>
                 </ul>
             </div>

@@ -1,7 +1,10 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import BtnWts from "./components/Btn-wts";
 import Home from "./pages/Home";
 import Producto from "./pages/Producto";
+
 
 function App() {
   return (
@@ -15,6 +18,8 @@ function App() {
         <Route path="/blog" />
         <Route path="/contacto" />
       </Routes>
+      <BtnWts />
+      <Footer />
     </Router>
   );
 }

@@ -451,3 +451,153 @@ body{
     border-bottom: 2px solid var(--black);
     color: var(--black);
 }
+
+/* Boton whatsapp */
+
+/* Botón flotante de WhatsApp */
+.btn-wts {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 60px;
+    height: 60px;
+    background-color: #25D366;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.3);
+    z-index: 2000;
+    transition: transform 0.3s ease;
+}
+
+.btn-wts img {
+    width: 50px;
+    height: 50px;
+}
+
+.btn-wts:hover {
+    transform: scale(1.15);
+}
+
+/* seccion actualidad */
+
+.contrenedor-actualidad{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 70px;
+    padding: 20px;
+}
+
+.info-actualidad{
+    width: 400px;
+}
+
+.info-actualidad p{
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.info-actualidad h2{
+    font-size: 25px;
+}
+
+.img-actualidad{
+    width: 500px;
+}
+
+.btn-blog{
+    padding: 5px;
+    background-color: var(--black);
+    width: 100px;
+    border-radius: 5px;
+}
+
+.btn-link-actualidad{
+    color: var(--white);
+    font-weight: 400;
+}
+
+.btn-link-actualidad:hover{
+    color: var(--colorPrimario);
+}
+
+.img-actualidad img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+
+/* Footer */
+
+.footer {
+    background: #000;
+    color: #fff;
+    padding: 40px 20px 15px;
+    font-family: var(--font1);
+}
+
+.footer-contenido {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer-logo img {
+    width: 170px;
+}
+
+.footer-menu {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+
+.footer-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.footer-menu a:hover {
+    color: var(--colorPrimario);
+}
+
+.footer-contacto p {
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+}
+
+.icono {
+    width: 20px;
+}
+
+.footer-siguenos {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.icono-red {
+    width: 22px;
+    margin-left: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.icono-red:hover {
+    transform: scale(1.2);
+}
+
+.footer-copy {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 13px;
+    opacity: 0.8;
+}
+

@@ -2,6 +2,7 @@ import Carrusel from "../components/carrusel";
 import Nosotros from "../components/Nosotros";
 import Destacados from "../components/Destacados";
 import Servicios from "../components/Servicios";
+import Actualidad from "../components/Actualidad";
 
 function Home() {
     return (
@@ -10,6 +11,7 @@ function Home() {
             <Nosotros />
             <Destacados />
             <Servicios />
+            <Actualidad />
         </>
     );
 }
