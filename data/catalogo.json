@@ -214,16 +214,16 @@
         "nombre": "Hub USB 3.0",
         "descripcion": "Expansor de 4 puertos USB de alta velocidad.",
         "precio": 29000,
-        "imagen": "/img/productos/pc_hub1.jpg",
+        "imagen": "/img/productos/pc_hub1.png",
         "destacado": false
     },
     {
         "id": 25,
         "categoria": "accesorios-pc",
-        "nombre": "Base Enfriadora Laptop",
+        "nombre": "Base Refrigerante para Laptop",
         "descripcion": "Doble ventilador silencioso para laptop.",
         "precio": 60000,
-        "imagen": "/img/productos/pc_base1.jpg",
+        "imagen": "/img/productos/pc_base1.webp",
         "destacado": false
     },
     {
@@ -250,7 +250,7 @@
         "nombre": "Webcam Full HD",
         "descripcion": "Cámara 1080p con micrófono integrado.",
         "precio": 90000,
-        "imagen": "/img/productos/pc_webcam1.jpg",
+        "imagen": "/img/productos/pc_webcam1.webp",
         "destacado": false
     },
     {
@@ -258,7 +258,7 @@
         "categoria": "accesorios-pc",
         "nombre": "Memoria USB 64GB",
         "descripcion": "USB 3.0 velocidad alta de transferencia.",
-        "precio": 45000,
+        "precio": 55000,
         "imagen": "/img/productos/pc_usb1.jpg",
         "destacado": false
     },
@@ -287,7 +287,7 @@
         "nombre": "Audífonos Deportivos",
         "descripcion": "Bluetooth resistentes al agua IPX6.",
         "precio": 65000,
-        "imagen": "/img/productos/sonido_audifonos1.jpg",
+        "imagen": "/img/productos/sonido_audifonos1.webp",
         "destacado": false
     },
     {
@@ -313,8 +313,8 @@
         "categoria": "sonido",
         "nombre": "Microfono Condensador",
         "descripcion": "Ideal para streaming, podcast o grabación.",
-        "precio": 90000,
-        "imagen": "/img/productos/sonido_microfono1.jpg",
+        "precio": 290000,
+        "imagen": "/img/productos/sonido_microfono1.webp",
         "destacado": false
     },
     {
@@ -323,7 +323,7 @@
         "nombre": "Radio Retro Bluetooth",
         "descripcion": "Diseño vintage con sonido moderno.",
         "precio": 70000,
-        "imagen": "/img/productos/sonido_radio1.jpg",
+        "imagen": "/img/productos/sonido_radio1.webp",
         "destacado": false
     },
     {
@@ -332,7 +332,7 @@
         "nombre": "Parlante Mini Waterproof",
         "descripcion": "A prueba de agua IPX7, ideal para bañera o piscina.",
         "precio": 60000,
-        "imagen": "/img/productos/sonido_waterproof1.jpg",
+        "imagen": "/img/productos/sonido_waterproof1.webp",
         "destacado": false
     },
     {
@@ -341,7 +341,7 @@
         "nombre": "Audífonos Studio",
         "descripcion": "Sonido envolvente y graves potentes.",
         "precio": 110000,
-        "imagen": "/img/productos/sonido_estudio1.jpg",
+        "imagen": "/img/productos/sonido_estudio1.webp",
         "destacado": false
     },
     {
@@ -349,8 +349,8 @@
         "categoria": "sonido",
         "nombre": "Parlante Torre",
         "descripcion": "Incluye micrófono y efectos de iluminación.",
-        "precio": 250000,
-        "imagen": "/img/productos/sonido_torre1.jpg",
+        "precio": 350000,
+        "imagen": "/img/productos/sonido_torre1.webp",
         "destacado": false
     },
     {
@@ -359,7 +359,7 @@
         "nombre": "Audífonos Plegables",
         "descripcion": "Livianos y cómodos, entrada 3.5mm.",
         "precio": 30000,
-        "imagen": "/img/productos/sonido_plegables1.jpg",
+        "imagen": "/img/productos/sonido_plegables1.webp",
         "destacado": false
     },
 
@@ -369,7 +369,7 @@
         "nombre": "Lámpara de Luna 3D",
         "descripcion": "Lámpara táctil con forma de luna.",
         "precio": 65000,
-        "imagen": "/img/productos/curiosidad_luna1.jpg",
+        "imagen": "/img/productos/curiosidad_luna1.webp",
         "destacado": false
     },
     {
@@ -395,7 +395,7 @@
         "categoria": "curiosidades",
         "nombre": "Soporte de Celular Cute",
         "descripcion": "Soportes decorativos variados.",
-        "precio": 15000,
+        "precio": 25000,
         "imagen": "/img/productos/curiosidad_soporte1.jpg",
         "destacado": false
     },
@@ -414,7 +414,7 @@
         "nombre": "Mini Altavoz Retro",
         "descripcion": "Diseño vintage miniatura.",
         "precio": 35000,
-        "imagen": "/img/productos/curiosidad_altavoz1.jpg",
+        "imagen": "/img/productos/curiosidad_altavoz1.jpeg",
         "destacado": false
     },
     {
@@ -432,7 +432,7 @@
         "nombre": "Peluche LED",
         "descripcion": "Peluche con luces internas cambiantes.",
         "precio": 45000,
-        "imagen": "/img/productos/curiosidad_peluche1.jpg",
+        "imagen": "/img/productos/curiosidad_peluche1.jpeg",
         "destacado": false
     },
     {
@@ -447,9 +447,9 @@
     {
         "id": 50,
         "categoria": "curiosidades",
-        "nombre": "Figura Decorativa LED",
+        "nombre": "Figura Decorativa DC Comics LED",
         "descripcion": "Iluminación ambiental para escritorio.",
-        "precio": 50000,
+        "precio": 120000,
         "imagen": "/img/productos/curiosidad_figura1.jpg",
         "destacado": false
     },
@@ -459,8 +459,8 @@
         "categoria": "jugueteria",
         "nombre": "Drone Mini",
         "descripcion": "Drone pequeño con luces y giro 360°.",
-        "precio": 95000,
-        "imagen": "/img/productos/juguete_drone1.jpg",
+        "precio": 120000,
+        "imagen": "/img/productos/juguete_drone1.webp",
         "destacado": false
     },
     {
@@ -478,7 +478,7 @@
         "nombre": "Robot Inteligente",
         "descripcion": "Interactivo, baila y reproduce sonidos.",
         "precio": 80000,
-        "imagen": "/img/productos/juguete_robot1.jpg",
+        "imagen": "/img/productos/juguete_robot1.webp",
         "destacado": false
     },
     {
@@ -496,7 +496,7 @@
         "nombre": "Bloques Magnéticos",
         "descripcion": "Set educativo para niños.",
         "precio": 60000,
-        "imagen": "/img/productos/juguete_bloques1.jpg",
+        "imagen": "/img/productos/juguete_bloques1.png",
         "destacado": false
     },
     {
@@ -504,7 +504,7 @@
         "categoria": "jugueteria",
         "nombre": "Lanzador de Burbujas",
         "descripcion": "Incluye solución y múltiples boquillas.",
-        "precio": 25000,
+        "precio": 45000,
         "imagen": "/img/productos/juguete_burbujas1.jpg",
         "destacado": false
     },
@@ -513,7 +513,7 @@
         "categoria": "jugueteria",
         "nombre": "Pista de Carros LED",
         "descripcion": "Carrera flexible con luces.",
-        "precio": 55000,
+        "precio": 75000,
         "imagen": "/img/productos/juguete_pista1.jpg",
         "destacado": false
     },
@@ -541,7 +541,7 @@
         "nombre": "Muñeco Articulado",
         "descripcion": "Figura articulada de colección.",
         "precio": 45000,
-        "imagen": "/img/productos/juguete_muneco1.jpg",
+        "imagen": "/img/productos/juguete_muneco1.webp",
         "destacado": false
     }
 ]
