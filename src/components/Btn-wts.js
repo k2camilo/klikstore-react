@@ -15,7 +15,7 @@ export default function BtnWts() {
             target="_blank"
             rel="noopener noreferrer"
         >
-            <img src="/icon/social.png" alt="WhatsApp" />
+            <img src={process.env.PUBLIC_URL + "/icon/social.png"} alt="WhatsApp" />
         </a>
     );
 }
