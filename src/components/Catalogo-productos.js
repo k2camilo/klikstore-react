@@ -9,7 +9,7 @@ export default function CatalogoProductos() {
     const [categoriaFiltro, setCategoriaFiltro] = useState("todas");
 
     useEffect(() => {
-        fetch("/data/catalogo.json")
+        fetch(process.env.PUBLIC_URL + "/data/catalogo.json")
             .then(res => res.json())
             .then(data => setProductos(data));
     }, []);
@@ -88,7 +88,7 @@ export default function CatalogoProductos() {
                                     key={producto.id}
                                 >
                                     <div className="img-producto">
-                                        <img src={producto.imagen} alt={producto.nombre} />
+                                        <img src={process.env.PUBLIC_URL + producto.imagen} alt={producto.nombre} />
                                     </div>
 
                                     <div className="texto-producto">

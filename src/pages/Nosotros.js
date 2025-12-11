@@ -7,7 +7,7 @@ export default function Nosotros() {
 
             {/* Logo */}
             <div className="nosotros-logo">
-                <img src="/img/klik-store.jpg" alt="Logo Klik Store" />
+                <img src={process.env.PUBLIC_URL + "/img/klik-store.jpg"} alt="Logo Klik Store" />
             </div>
 
             {/* Texto principal */}

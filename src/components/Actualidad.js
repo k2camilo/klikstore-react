@@ -12,7 +12,7 @@ export default function Actualidad (){
                     <button className="btn-blog"><Link className="btn-link-actualidad" to="/blog">Ir a Blog</Link></button>
                 </div>
                 <div className="img-actualidad">
-                    <img src="/img/blog.webp"/>
+                    <img src={process.env.PUBLIC_URL + "/img/blog.webp"} alt="imagen-actualidad"/>
                 </div>
             </div>
         </section>

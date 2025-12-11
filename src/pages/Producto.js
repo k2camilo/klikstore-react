@@ -8,7 +8,7 @@ export default function Producto(){
     const [producto, setProducto] = useState(null);
 
     useEffect(() => {
-        fetch("/data/catalogo.json")
+        fetch(process.env.PUBLIC_URL + "/data/catalogo.json")
         .then(res => res.json())
         .then(data => {
             const prod = data.find(p => p.id === Number(id));
@@ -23,7 +23,7 @@ export default function Producto(){
     return (
         <section className="producto-detalle">
 
-        <img src={producto.imagen} alt={producto.nombre} />
+        <img src={process.env.PUBLIC_URL + producto.imagen} alt={producto.nombre} />
 
         <div className="info-producto">
             <h2>{producto.nombre}</h2>

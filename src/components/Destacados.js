@@ -8,7 +8,7 @@ export default function Destacados() {
     const [index, setIndex] = useState(0);
 
     useEffect(() => {
-        fetch("/data/catalogo.json")
+        fetch(process.env.PUBLIC_URL + "/data/catalogo.json")
             .then(res => res.json())
             .then(data => {
 
@@ -48,7 +48,7 @@ export default function Destacados() {
                     {productos.map(producto => (
                         <Link to={`/producto/${producto.id}`} className="producto" key={producto.id}>
                             <div className="img-producto">
-                                <img src={producto.imagen} alt={producto.nombre} />
+                                <img src={process.env.PUBLIC_URL + producto.imagen} alt={producto.nombre} />
                             </div>
 
                             <div className="texto-producto">

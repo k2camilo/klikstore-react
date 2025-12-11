@@ -9,7 +9,7 @@ export default function Footer() {
             <div className="footer-contenido">
 
                 <div className="footer-logo">
-                    <img src="/img/klik-store-trp-300px.png" alt="Logo Klik Store" />
+                    <img src={process.env.PUBLIC_URL + "/img/klik-store-trp-300px.png"} alt="Logo Klik Store" />
                 </div>
 
                 <div className="footer-menu">
@@ -26,25 +26,25 @@ export default function Footer() {
                     <p className="footer-siguenos">
                         Síguenos en:
                         <a href="https://www.tiktok.com/@myklikstore" target="_blank">
-                            <img className="icono-red" src="/icon/tik-tok-bln.png" alt="tik tok" />
+                            <img className="icono-red" src={process.env.PUBLIC_URL + "/icon/tik-tok-bln.png"} alt="tik tok" />
                         </a>
                         <a href="https://www.instagram.com/myklikstore" target="_blank">
-                            <img className="icono-red" src="/icon/instagram-bln.png" alt="instagram" />
+                            <img className="icono-red" src={process.env.PUBLIC_URL + "/icon/instagram-bln.png"} alt="instagram" />
                         </a>
                     </p>
 
                     <p>
-                        <img className="icono" src="/icon/mapa.png" alt="ubicación" />
+                        <img className="icono" src={process.env.PUBLIC_URL + "/icon/mapa.png"} alt="ubicación" />
                         Bogotá, Calle 2 No. 56 a - 07
                     </p>
 
                     <p>
-                        <img className="icono" src="/icon/telefono.png" alt="telefono" />
+                        <img className="icono" src={process.env.PUBLIC_URL + "/icon/telefono.png"} alt="telefono" />
                         3242111830
                     </p>
 
                     <p>
-                        <img className="icono" src="/icon/email.png" alt="correo" />
+                        <img className="icono" src={process.env.PUBLIC_URL + "/icon/email.png"} alt="correo" />
                         myklikstore@gmail.com
                     </p>
                 </div>
