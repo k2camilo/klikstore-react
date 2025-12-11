@@ -9,7 +9,7 @@ export default function Carrusel(){
     const baners = [
         process.env.PUBLIC_URL + "/img/Banner1.jpg",
         process.env.PUBLIC_URL + "/img/Banner2.jpg",
-        process.env.PUBLIC_URL + "/img/Banner3.jpg",
+        process.env.PUBLIC_URL + "/img/Banner3.jpg"
     ];
 
     const [index, setIndex] = useState(0);
