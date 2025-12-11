@@ -17,15 +17,15 @@ function Navbar(){
             <div className="logo-redes">
                 <div className="logo">
                     <Link to="/" className="logo-link" onClick={closeMenu}>
-                        <img src="/img/klik-store-trp-300px.png" alt="logo-klikStore"/>
+                        <img src={process.env.PUBLIC_URL +"/img/klik-store-trp-300px.png"} alt="logo-klikStore"/>
                     </Link>
                 </div>
                 <div className="redes">
                     <a href="https://www.instagram.com/myklikstore" className="redes-link" target="_blank">
-                        <img src="/icon/instagram-bln.png" alt="logo-instagram" className="redes-logo"/>
+                        <img src={process.env.PUBLIC_URL + "/icon/instagram-bln.png"} alt="logo-instagram" className="redes-logo"/>
                     </a>
                     <a href="https://www.tiktok.com/@myklikstore" className="redes-link" target="_blank">
-                        <img src="/icon/tik-tok-bln.png" alt="logo-tiktoc" className="redes-logo"/>
+                        <img src={process.env.PUBLIC_URL + "/icon/tik-tok-bln.png"} alt="logo-tiktoc" className="redes-logo"/>
                     </a>
                 </div>
             </div>
