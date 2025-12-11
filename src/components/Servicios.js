@@ -23,7 +23,7 @@ export default function Servicios() {
 
                 <div className="caja-servicio">
                     <img className="img-servicio" src={"/img/diagnostico.png"} alt="img.diagnostico"/>
-                    <h3>Diagnostico</h3>
+                    <h3>Diagnóstico</h3>
                     <p>Detectamos cualquier falla antes de que se convierta en un problema. Realizamos un diagnóstico técnico completo y preciso, identificando el origen de errores en hardware o software para ofrecerte la mejor solución al menor costo posible.</p>
                     <Link to="/contacto" className="link-servicio">Cotiza tu servicio →</Link>
                 </div>
