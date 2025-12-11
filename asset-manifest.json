@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/klikstore-react/static/css/main.6506fb3a.css",
-    "main.js": "/klikstore-react/static/js/main.60942691.js",
+    "main.js": "/klikstore-react/static/js/main.ca250cae.js",
     "static/media/banner_principal_2.jpg": "/klikstore-react/static/media/banner_principal_2.6279036aebb1f3ff78c1.jpg",
     "static/media/banner-categoria.png": "/klikstore-react/static/media/banner-categoria.6c8700b56b81c3a3e9e9.png",
     "static/media/banner-nosotros.jpg": "/klikstore-react/static/media/banner-nosotros.07d7f74fe6e678ed7c3f.jpg",
     "index.html": "/klikstore-react/index.html",
     "main.6506fb3a.css.map": "/klikstore-react/static/css/main.6506fb3a.css.map",
-    "main.60942691.js.map": "/klikstore-react/static/js/main.60942691.js.map"
+    "main.ca250cae.js.map": "/klikstore-react/static/js/main.ca250cae.js.map"
   },
   "entrypoints": [
     "static/css/main.6506fb3a.css",
-    "static/js/main.60942691.js"
+    "static/js/main.ca250cae.js"
   ]
 }
