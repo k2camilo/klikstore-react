@@ -8,14 +8,19 @@ export default function Destacados() {
     const [index, setIndex] = useState(0);
 
     useEffect(() => {
-        fetch("/data/productos.json")
+        fetch("/data/catalogo.json")
             .then(res => res.json())
-            .then(data => setProductos(data));
+            .then(data => {
+
+                // Filtrar solo los destacados
+                const destacados = data.filter(item => item.destacado === true);
+
+                setProductos(destacados);
+            });
     }, []);
 
     const itemsVisibles = 4;
 
-    // Total de “páginas” o posiciones posibles
     const maxIndex = Math.ceil(productos.length / itemsVisibles) - 1;
 
     const siguiente = () => {
@@ -34,7 +39,7 @@ export default function Destacados() {
             <button className="flecha-prod right-prod" onClick={siguiente}>►</button>
 
             <div className="productos-contenedor">
-                <div 
+                <div
                     className="productos-slide"
                     style={{
                         transform: `translateX(-${index * 100}%)`
@@ -60,4 +65,5 @@ export default function Destacados() {
         </section>
     );
 }
+
 

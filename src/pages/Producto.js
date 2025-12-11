@@ -1,7 +1,6 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import "../assets/css/style.css";
-import Footer from "../components/Footer";
 
 export default function Producto(){
 
@@ -9,7 +8,7 @@ export default function Producto(){
     const [producto, setProducto] = useState(null);
 
     useEffect(() => {
-        fetch("/data/productos.json")
+        fetch("/data/catalogo.json")
         .then(res => res.json())
         .then(data => {
             const prod = data.find(p => p.id === Number(id));

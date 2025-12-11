@@ -1,0 +1,547 @@
+[
+    {
+        "id": 1,
+        "nombre": "AirPods Gen2",
+        "precio": 120000,
+        "descripcion": "Audífonos inalámbricos con excelente calidad de sonido y estuche de carga.",
+        "imagen": "/img/productos/audifonos.jpg",
+        "categoria": "sonido",
+        "destacado": true
+    },
+    {
+        "id": 2,
+        "nombre": "Audífonos Rolling Face Bluetooth",
+        "precio": 85000,
+        "descripcion": "Audífonos bluetooth con micrófono y batería de larga duración.",
+        "imagen": "/img/productos/audifonos1.webp",
+        "categoria": "sonido",
+        "destacado": true
+    },
+    {
+        "id": 3,
+        "nombre": "Cable USB Tipo C",
+        "precio": 15000,
+        "descripcion": "Cable reforzado de carga rápida y transferencia de datos.",
+        "imagen": "/img/productos/cable.jpg",
+        "categoria": "accesorios-celular",
+        "destacado": true
+    },
+    {
+        "id": 4,
+        "nombre": "Cargador iPhone Tipo C 20w",
+        "precio": 40000,
+        "descripcion": "Cargador rápido compatible con dispositivos Apple.",
+        "imagen": "/img/productos/cargador.webp",
+        "categoria": "accesorios-celular",
+        "destacado": true
+    },
+    {
+        "id": 5,
+        "nombre": "Diadema Gamer RGB",
+        "precio": 110000,
+        "descripcion": "Diadema con luces RGB, micrófono y sonido estéreo.",
+        "imagen": "/img/productos/diadema.jpg",
+        "categoria": "accesorios-pc",
+        "destacado": true
+    },
+    {
+        "id": 6,
+        "nombre": "Cable HDMI 5 Metros",
+        "precio": 30000,
+        "descripcion": "Cable HDMI de alta velocidad con soporte 4K.",
+        "imagen": "/img/productos/hdmi.jpg",
+        "categoria": "accesorios-pc",
+        "destacado": true
+    },
+    {
+        "id": 7,
+        "nombre": "Mouse Gamer RGB",
+        "precio": 55000,
+        "descripcion": "Mouse gamer de alta precisión con luces RGB.",
+        "imagen": "/img/productos/MOUSE.webp",
+        "categoria": "accesorios-pc",
+        "destacado": true
+    },
+    {
+        "id": 8,
+        "nombre": "Mini Cabina de Sonido",
+        "precio": 90000,
+        "descripcion": "Parlante portátil con sonido potente y batería recargable.",
+        "imagen": "/img/productos/parlante 1.jpg",
+        "categoria": "sonido",
+        "destacado": true
+    },
+    {
+        "id": 9,
+        "nombre": "Parlante Bluetooth RGB Ramitech",
+        "precio": 130000,
+        "descripcion": "Parlante bluetooth con luces RGB y graves reforzados.",
+        "imagen": "/img/productos/parlante 2.jpg",
+        "categoria": "sonido",
+        "destacado": true
+    },
+    {
+        "id": 10,
+        "nombre": "Parlante Bluetooth RGB Ramitech Pro",
+        "precio": 150000,
+        "descripcion": "Parlante bluetooth premium con mayor potencia y autonomía.",
+        "imagen": "/img/productos/parlante 3.jpg",
+        "categoria": "sonido",
+        "destacado": true
+    },
+
+    {
+        "id": 11,
+        "categoria": "accesorios-celular",
+        "nombre": "Protector de Pantalla Templado",
+        "descripcion": "Vidrio templado 9H antigolpes para celulares.",
+        "precio": 15000,
+        "imagen": "/img/productos/protector-templado.jpg",
+        "destacado": false
+    },
+    {
+        "id": 12,
+        "categoria": "accesorios-celular",
+        "nombre": "Cable Tipo C a tipo C",
+        "descripcion": "Cable de carga rápida 3.1A resistente.",
+        "precio": 18000,
+        "imagen": "/img/productos/tipoc-a-tipoc.webp",
+        "destacado": false
+    },
+    {
+        "id": 13,
+        "categoria": "accesorios-celular",
+        "nombre": "Cargador Rápido 25W Iphone tipo C",
+        "descripcion": "Cargador turbo compatible con Samsung y Android.",
+        "precio": 45000,
+        "imagen": "/img/productos/cargador-iphone-c.webp",
+        "destacado": false
+    },
+    {
+        "id": 14,
+        "categoria": "accesorios-celular",
+        "nombre": "Auriculares Bluetooth Ramitech",
+        "descripcion": "Audífonos inalámbricos estéreo con micrófono.",
+        "precio": 85000,
+        "imagen": "/img/productos/audifonos_bt-ramitech.webp",
+        "destacado": false
+    },
+    {
+        "id": 15,
+        "categoria": "accesorios-celular",
+        "nombre": "Soporte de Celular para Auto",
+        "descripcion": "Soporte magnético 360° para tablero o rejilla.",
+        "precio": 29000,
+        "imagen": "/img/productos/soporte-celular.webp",
+        "destacado": false
+    },
+    {
+        "id": 16,
+        "categoria": "accesorios-celular",
+        "nombre": "Forro Antigolpes",
+        "descripcion": "Carcasa resistente con bordes reforzados.",
+        "precio": 35000,
+        "imagen": "/img/productos/forro-antigolpe.webp",
+        "destacado": false
+    },
+    {
+        "id": 17,
+        "categoria": "accesorios-celular",
+        "nombre": "Batería Portátil Power Bank 10,000 mAh",
+        "descripcion": "Carga dos dispositivos simultáneamente.",
+        "precio": 85000,
+        "imagen": "/img/productos/power-banck.jpg",
+        "destacado": false
+    },
+    {
+        "id": 18,
+        "categoria": "accesorios-celular",
+        "nombre": "Silicone Case Multimarca",
+        "descripcion": "Carcasa resistente siliconado par atodas las marcas de celular.",
+        "precio": 15000,
+        "imagen": "/img/productos/silicone-case.jpg",
+        "destacado": false
+    },
+    {
+        "id": 19,
+        "categoria": "accesorios-celular",
+        "nombre": "Cable Lightning iPhone",
+        "descripcion": "Cable reforzado para dispositivos Apple.",
+        "precio": 38000,
+        "imagen": "/img/productos/cable-iphone.webp",
+        "destacado": false
+    },
+    {
+        "id": 20,
+        "categoria": "accesorios-celular",
+        "nombre": "Cargador Inalámbrico Qi 3 en 1",
+        "descripcion": "Carga rápida inalámbrica universal.",
+        "precio": 55000,
+        "imagen": "/img/productos/cargador-qi.jpg",
+        "destacado": false
+    },
+
+    {
+        "id": 21,
+        "categoria": "accesorios-pc",
+        "nombre": "Mouse Gamer RGB",
+        "descripcion": "Sensor óptico de alta precisión, luces RGB.",
+        "precio": 45000,
+        "imagen": "/img/productos/mouse-gamer.jpg",
+        "destacado": false
+    },
+    {
+        "id": 22,
+        "categoria": "accesorios-pc",
+        "nombre": "Teclado Mecánico",
+        "descripcion": "Teclado mecánico retroiluminado con switches azul.",
+        "precio": 120000,
+        "imagen": "/img/productos/teclado-mecanico.webp",
+        "destacado": false
+    },
+    {
+        "id": 23,
+        "categoria": "accesorios-ppc",
+        "nombre": "Alfombrilla Gamer XL",
+        "descripcion": "Tamaño extendido, base antideslizante.",
+        "precio": 35000,
+        "imagen": "/img/productos/pc_pad1.jpg",
+        "destacado": false
+    },
+    {
+        "id": 24,
+        "categoria": "accesorios-pc",
+        "nombre": "Hub USB 3.0",
+        "descripcion": "Expansor de 4 puertos USB de alta velocidad.",
+        "precio": 29000,
+        "imagen": "/img/productos/pc_hub1.jpg",
+        "destacado": false
+    },
+    {
+        "id": 25,
+        "categoria": "accesorios-pc",
+        "nombre": "Base Enfriadora Laptop",
+        "descripcion": "Doble ventilador silencioso para laptop.",
+        "precio": 60000,
+        "imagen": "/img/productos/pc_base1.jpg",
+        "destacado": false
+    },
+    {
+        "id": 26,
+        "categoria": "accesorios-pc",
+        "nombre": "Parlantes USB",
+        "descripcion": "Parlantes compactos con sonido estéreo.",
+        "precio": 35000,
+        "imagen": "/img/productos/pc_parlantes1.jpg",
+        "destacado": false
+    },
+    {
+        "id": 27,
+        "categoria": "accesorios-pc",
+        "nombre": "Adaptador HDMI a VGA",
+        "descripcion": "Compatible con monitores antiguos.",
+        "precio": 29000,
+        "imagen": "/img/productos/pc_adaptador1.jpg",
+        "destacado": false
+    },
+    {
+        "id": 28,
+        "categoria": "accesorios-pc",
+        "nombre": "Webcam Full HD",
+        "descripcion": "Cámara 1080p con micrófono integrado.",
+        "precio": 90000,
+        "imagen": "/img/productos/pc_webcam1.jpg",
+        "destacado": false
+    },
+    {
+        "id": 29,
+        "categoria": "accesorios-pc",
+        "nombre": "Memoria USB 64GB",
+        "descripcion": "USB 3.0 velocidad alta de transferencia.",
+        "precio": 45000,
+        "imagen": "/img/productos/pc_usb1.jpg",
+        "destacado": false
+    },
+    {
+        "id": 30,
+        "categoria": "accesorios-pc",
+        "nombre": "Diadema Gamer",
+        "descripcion": "Audífonos con micrófono y luces RGB.",
+        "precio": 75000,
+        "imagen": "/img/productos/pc_diadema1.jpg",
+        "destacado": false
+    },
+
+    {
+        "id": 31,
+        "categoria": "sonido",
+        "nombre": "Parlante Bluetooth Portable",
+        "descripcion": "Sonido estéreo con luces RGB.",
+        "precio": 85000,
+        "imagen": "/img/productos/sonido_parlante1.jpg",
+        "destacado": false
+    },
+    {
+        "id": 32,
+        "categoria": "sonido",
+        "nombre": "Audífonos Deportivos",
+        "descripcion": "Bluetooth resistentes al agua IPX6.",
+        "precio": 65000,
+        "imagen": "/img/productos/sonido_audifonos1.jpg",
+        "destacado": false
+    },
+    {
+        "id": 33,
+        "categoria": "sonido",
+        "nombre": "Mini Cabina de Sonido",
+        "descripcion": "Ideal para reuniones pequeñas, incluye micrófono.",
+        "precio": 120000,
+        "imagen": "/img/productos/sonido_cabina1.jpg",
+        "destacado": false
+    },
+    {
+        "id": 34,
+        "categoria": "sonido",
+        "nombre": "Barra de Sonido",
+        "descripcion": "Bluetooth + cableado, sonido envolvente.",
+        "precio": 150000,
+        "imagen": "/img/productos/sonido_barra1.jpg",
+        "destacado": false
+    },
+    {
+        "id": 35,
+        "categoria": "sonido",
+        "nombre": "Microfono Condensador",
+        "descripcion": "Ideal para streaming, podcast o grabación.",
+        "precio": 90000,
+        "imagen": "/img/productos/sonido_microfono1.jpg",
+        "destacado": false
+    },
+    {
+        "id": 36,
+        "categoria": "sonido",
+        "nombre": "Radio Retro Bluetooth",
+        "descripcion": "Diseño vintage con sonido moderno.",
+        "precio": 70000,
+        "imagen": "/img/productos/sonido_radio1.jpg",
+        "destacado": false
+    },
+    {
+        "id": 37,
+        "categoria": "sonido",
+        "nombre": "Parlante Mini Waterproof",
+        "descripcion": "A prueba de agua IPX7, ideal para bañera o piscina.",
+        "precio": 60000,
+        "imagen": "/img/productos/sonido_waterproof1.jpg",
+        "destacado": false
+    },
+    {
+        "id": 38,
+        "categoria": "sonido",
+        "nombre": "Audífonos Studio",
+        "descripcion": "Sonido envolvente y graves potentes.",
+        "precio": 110000,
+        "imagen": "/img/productos/sonido_estudio1.jpg",
+        "destacado": false
+    },
+    {
+        "id": 39,
+        "categoria": "sonido",
+        "nombre": "Parlante Torre",
+        "descripcion": "Incluye micrófono y efectos de iluminación.",
+        "precio": 250000,
+        "imagen": "/img/productos/sonido_torre1.jpg",
+        "destacado": false
+    },
+    {
+        "id": 40,
+        "categoria": "sonido",
+        "nombre": "Audífonos Plegables",
+        "descripcion": "Livianos y cómodos, entrada 3.5mm.",
+        "precio": 30000,
+        "imagen": "/img/productos/sonido_plegables1.jpg",
+        "destacado": false
+    },
+
+    {
+        "id": 41,
+        "categoria": "curiosidades",
+        "nombre": "Lámpara de Luna 3D",
+        "descripcion": "Lámpara táctil con forma de luna.",
+        "precio": 65000,
+        "imagen": "/img/productos/curiosidad_luna1.jpg",
+        "destacado": false
+    },
+    {
+        "id": 42,
+        "categoria": "curiosidades",
+        "nombre": "Mini Ventilador USB",
+        "descripcion": "Portátil, ideal para escritorio.",
+        "precio": 20000,
+        "imagen": "/img/productos/curiosidad_ventilador1.jpg",
+        "destacado": false
+    },
+    {
+        "id": 43,
+        "categoria": "curiosidades",
+        "nombre": "Humidificador LED",
+        "descripcion": "Incluye luces RGB y apagado automático.",
+        "precio": 40000,
+        "imagen": "/img/productos/curiosidad_humidificador1.jpg",
+        "destacado": false
+    },
+    {
+        "id": 44,
+        "categoria": "curiosidades",
+        "nombre": "Soporte de Celular Cute",
+        "descripcion": "Soportes decorativos variados.",
+        "precio": 15000,
+        "imagen": "/img/productos/curiosidad_soporte1.jpg",
+        "destacado": false
+    },
+    {
+        "id": 45,
+        "categoria": "curiosidades",
+        "nombre": "Portalápices Gaming",
+        "descripcion": "Diseño futurista con luz RGB.",
+        "precio": 25000,
+        "imagen": "/img/productos/curiosidad_portalapices1.jpg",
+        "destacado": false
+    },
+    {
+        "id": 46,
+        "categoria": "curiosidades",
+        "nombre": "Mini Altavoz Retro",
+        "descripcion": "Diseño vintage miniatura.",
+        "precio": 35000,
+        "imagen": "/img/productos/curiosidad_altavoz1.jpg",
+        "destacado": false
+    },
+    {
+        "id": 47,
+        "categoria": "curiosidades",
+        "nombre": "Lámpara Proyector Estrellas",
+        "descripcion": "Proyecta galaxias en techo y paredes.",
+        "precio": 85000,
+        "imagen": "/img/productos/curiosidad_galaxia1.jpg",
+        "destacado": false
+    },
+    {
+        "id": 48,
+        "categoria": "curiosidades",
+        "nombre": "Peluche LED",
+        "descripcion": "Peluche con luces internas cambiantes.",
+        "precio": 45000,
+        "imagen": "/img/productos/curiosidad_peluche1.jpg",
+        "destacado": false
+    },
+    {
+        "id": 49,
+        "categoria": "curiosidades",
+        "nombre": "Mini Lapicero Multifunción",
+        "descripcion": "Incluye regla, destornillador y stylus.",
+        "precio": 18000,
+        "imagen": "/img/productos/curiosidad_lapicero1.jpg",
+        "destacado": false
+    },
+    {
+        "id": 50,
+        "categoria": "curiosidades",
+        "nombre": "Figura Decorativa LED",
+        "descripcion": "Iluminación ambiental para escritorio.",
+        "precio": 50000,
+        "imagen": "/img/productos/curiosidad_figura1.jpg",
+        "destacado": false
+    },
+
+    {
+        "id": 51,
+        "categoria": "jugueteria",
+        "nombre": "Drone Mini",
+        "descripcion": "Drone pequeño con luces y giro 360°.",
+        "precio": 95000,
+        "imagen": "/img/productos/juguete_drone1.jpg",
+        "destacado": false
+    },
+    {
+        "id": 52,
+        "categoria": "jugueteria",
+        "nombre": "Carro RC Todoterreno",
+        "descripcion": "Control remoto con suspensión doble.",
+        "precio": 130000,
+        "imagen": "/img/productos/juguete_carro1.jpg",
+        "destacado": false
+    },
+    {
+        "id": 53,
+        "categoria": "jugueteria",
+        "nombre": "Robot Inteligente",
+        "descripcion": "Interactivo, baila y reproduce sonidos.",
+        "precio": 80000,
+        "imagen": "/img/productos/juguete_robot1.jpg",
+        "destacado": false
+    },
+    {
+        "id": 54,
+        "categoria": "jugueteria",
+        "nombre": "Spinner Metálico",
+        "descripcion": "Antiestrés de alta duración.",
+        "precio": 15000,
+        "imagen": "/img/productos/juguete_spinner1.jpg",
+        "destacado": false
+    },
+    {
+        "id": 55,
+        "categoria": "jugueteria",
+        "nombre": "Bloques Magnéticos",
+        "descripcion": "Set educativo para niños.",
+        "precio": 60000,
+        "imagen": "/img/productos/juguete_bloques1.jpg",
+        "destacado": false
+    },
+    {
+        "id": 56,
+        "categoria": "jugueteria",
+        "nombre": "Lanzador de Burbujas",
+        "descripcion": "Incluye solución y múltiples boquillas.",
+        "precio": 25000,
+        "imagen": "/img/productos/juguete_burbujas1.jpg",
+        "destacado": false
+    },
+    {
+        "id": 57,
+        "categoria": "jugueteria",
+        "nombre": "Pista de Carros LED",
+        "descripcion": "Carrera flexible con luces.",
+        "precio": 55000,
+        "imagen": "/img/productos/juguete_pista1.jpg",
+        "destacado": false
+    },
+    {
+        "id": 58,
+        "categoria": "jugueteria",
+        "nombre": "Pelota Saltarina LED",
+        "descripcion": "Rebota y prende luces al golpear.",
+        "precio": 20000,
+        "imagen": "/img/productos/juguete_pelota1.jpg",
+        "destacado": false
+    },
+    {
+        "id": 59,
+        "categoria": "jugueteria",
+        "nombre": "Juego de Construcción",
+        "descripcion": "Piezas resistentes para armar figuras.",
+        "precio": 30000,
+        "imagen": "/img/productos/juguete_construccion1.jpg",
+        "destacado": false
+    },
+    {
+        "id": 60,
+        "categoria": "jugueteria",
+        "nombre": "Muñeco Articulado",
+        "descripcion": "Figura articulada de colección.",
+        "precio": 45000,
+        "imagen": "/img/productos/juguete_muneco1.jpg",
+        "destacado": false
+    }
+]

@@ -4,6 +4,8 @@ import Footer from "./components/Footer";
 import BtnWts from "./components/Btn-wts";
 import Home from "./pages/Home";
 import Producto from "./pages/Producto";
+import Catalogo from "./pages/Catalogo";
+import Servicios from "./pages/Servicios";
 
 
 function App() {
@@ -13,9 +15,10 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="/producto/:id" element={<Producto />} />
-        <Route path="/nosotros" />
-        <Route path="/catalogo" />
+        <Route path="/catalogo" element={<Catalogo />}/>
+        <Route path="/servicios"  element={<Servicios />} /> 
         <Route path="/blog" />
+        <Route path="/nosotros"  /> 
         <Route path="/contacto" />
       </Routes>
       <BtnWts />
