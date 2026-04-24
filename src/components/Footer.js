@@ -25,10 +25,10 @@ export default function Footer() {
 
                     <p className="footer-siguenos">
                         Síguenos en:
-                        <a href="https://www.tiktok.com/@myklikstore" target="_blank">
+                        <a href="https://www.tiktok.com/@myklikstore" target="_blank" rel="noreferrer">
                             <img className="icono-red" src="/icon/tik-tok-bln.png" alt="tik tok" />
                         </a>
-                        <a href="https://www.instagram.com/myklikstore" target="_blank">
+                        <a href="https://www.instagram.com/myklikstore" target="_blank" rel="noreferrer">
                             <img className="icono-red" src="/icon/instagram-bln.png" alt="instagram" />
                         </a>
                     </p>

@@ -5,7 +5,7 @@ export default function Blog(){
     return(
         <>
             <div className="img-banner-producto">
-                <img src="/img/BANNER-BLOG.jpg" />
+                <img src="/img/BANNER-BLOG.jpg" alt=""/>
             </div>
             <h2 className="titulo-blog">Actualidad Tecnológica</h2>
             <div className="contenedor-noticias">

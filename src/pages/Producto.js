@@ -32,7 +32,7 @@ export default function Producto(){
             <a className="btn-comprar"
                 href={`https://wa.me/573242111830?text=${encodeURIComponent(
                     `Hola, vengo desde la página web y estoy interesado en el producto: ${producto.nombre}`
-                )}`} target="_blank">Pregunta por él
+                )}`} target="_blank" rel="noreferrer">Pregunta por él
             </a>
         </div>
 
