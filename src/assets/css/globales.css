@@ -1,5 +1,5 @@
 :root{
-    --font1: "Montserrat", serif;
+    --font1: 'Montserrat', sans-serif;
     --colorPrimario: #12a8a6;
     --colorSecundario: #009285;
     --white: #fff;
@@ -11,6 +11,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: var(--font1);
 }
 
 *, *::before, *::after{
