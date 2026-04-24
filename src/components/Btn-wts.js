@@ -1,6 +1,5 @@
 import "../assets/css/componentes.css";
 import "../assets/css/pages.css";
-import "../assets/css/globales.css";
 
 export default function BtnWts() {
 

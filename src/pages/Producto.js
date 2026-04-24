@@ -2,7 +2,6 @@ import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import "../assets/css/componentes.css";
 import "../assets/css/pages.css";
-import "../assets/css/globales.css";
 
 export default function Producto(){
 

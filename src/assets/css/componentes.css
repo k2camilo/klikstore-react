@@ -383,9 +383,8 @@
     width: 100%;
     flex-direction: column;
     text-align: center;
-    margin: 30px 0;
-    background-color:#e4e4e4;
-    background-image: url("../img/banner-categoria1.png");
+    margin: 70px 0;
+    background-image: url("../img/banner-categoria1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;    
@@ -393,7 +392,7 @@
 }
 
 .titulo-serv{
-    color: #ffffff;
+    color: var(--colorPrimario);
     font-weight: 700;
     margin: 20px 0;
     font-size: 35px;
@@ -412,6 +411,8 @@
     text-align: left;
     border-radius: 20px;
     background-color: var(--colorPrimario);
+    box-shadow: 3px 3px 20px #323232;
+    margin: 60px 0;
 }
 
 .img-servicio{
@@ -443,52 +444,4 @@
 .link-servicio:hover{
     border-bottom: 2px solid var(--black);
     color: var(--black);
-}
-
-/* seccion actualidad */
-
-.contrenedor-actualidad{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 70px;
-    padding: 20px;
-}
-
-.info-actualidad{
-    width: 400px;
-}
-
-.info-actualidad p{
-    margin: 10px 0;
-    font-size: 18px;
-}
-
-.info-actualidad h2{
-    font-size: 25px;
-}
-
-.img-actualidad{
-    width: 500px;
-}
-
-.btn-blog{
-    padding: 5px;
-    background-color: var(--black);
-    width: 100px;
-    border-radius: 5px;
-}
-
-.btn-link-actualidad{
-    color: var(--white);
-    font-weight: 400;
-}
-
-.btn-link-actualidad:hover{
-    color: var(--colorPrimario);
-}
-
-.img-actualidad img{
-    width: 100%;
-    border-radius: 20px;
 }

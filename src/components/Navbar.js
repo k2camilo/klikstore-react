@@ -2,8 +2,6 @@ import {Link} from "react-router-dom";
 import { useState } from "react";
 import "../assets/css/componentes.css";
 import "../assets/css/pages.css";
-import "../assets/css/responsive.css";
-import "../assets/css/globales.css";
 
 function Navbar(){
     const [open, setOpen] = useState(false);

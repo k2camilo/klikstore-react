@@ -1,7 +1,5 @@
 import "../assets/css/componentes.css";
 import "../assets/css/pages.css";
-import "../assets/css/responsive.css";
-import "../assets/css/globales.css";
 import { useEffect, useRef, useState } from "react";
 
 export default function Carrusel(){

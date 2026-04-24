@@ -1,6 +1,6 @@
+import "../assets/css/globales.css";
 import "../assets/css/componentes.css";
 import "../assets/css/pages.css";
-import "../assets/css/globales.css";
 
 export default function Banner(){
     return(
