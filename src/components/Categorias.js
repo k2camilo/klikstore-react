@@ -3,7 +3,7 @@ import "../assets/css/pages.css";
 
 export default function Categorias(){
     return (
-        <section class="categorias">
+        <section class="container categorias">
             <div class = "contenedor-categorias">
                 <div class = "caja item1">
                     <img class="img-item1" src="/img/categoria-celular.png" alt=""/>

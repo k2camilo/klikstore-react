@@ -32,7 +32,7 @@ export default function Destacados() {
     };
 
     return (
-        <section className="destacados">
+        <section className="container destacados">
             <h2>Productos Destacados</h2>
 
             <button className="flecha-prod left-prod" onClick={anterior}>◄</button>
