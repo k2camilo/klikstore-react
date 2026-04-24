@@ -1,13 +1,12 @@
 import "../assets/css/style.css";
 import "../assets/css/responsive.css";
-import { Link } from "react-router-dom";
 
 export default function Categorias(){
     return (
         <section class="categorias">
             <div class = "contenedor-categorias">
                 <div class = "caja item1">
-                    <img class="img-item1" src="/img/categoria-celular.png" />
+                    <img class="img-item1" src="/img/categoria-celular.png" alt=""/>
                     <div class="caja-texto1">
                         <h1>Accesorios para Celular</h1>
                         <p>Fundas, Audifonos, cables, cargadores, soportes...</p>
@@ -16,7 +15,7 @@ export default function Categorias(){
                     <h2>Refleja tu estilo</h2>
                 </div>
                 <div class = "caja item2">
-                    <img class="img-item2" src="/img/categoria-curiosidades2.png" />
+                    <img class="img-item2" src="/img/categoria-curiosidades2.png" alt=""/>
                     <div class="caja-texto2">
                         <h1>Solo para fans</h1>
                         <p>Lo más curioso y coleccionable está aquí</p>
@@ -24,7 +23,7 @@ export default function Categorias(){
                     </div>
                 </div>
                 <div class = "caja item3">
-                    <img class="img-item3" src="/img/categoria-peluches.png" />
+                    <img class="img-item3" src="/img/categoria-peluches.png" alt=""/>
                     <div class="caja-texto3">
                         <h1>Para regalar sonrisas</h1>
                         <p>Encuentra el regalo ideal.</p>
@@ -32,7 +31,7 @@ export default function Categorias(){
                     </div>
                 </div>
                 <div class = "caja item4">
-                    <img class="img-item4" src="/img/categoria-kawaii.png" />
+                    <img class="img-item4" src="/img/categoria-kawaii.png" alt=""/>
                     <div class="caja-texto4">
                         <h1>Pequeños caprichos</h1>
                         <p>Todo lo kawaii está aquí.</p>
@@ -40,7 +39,7 @@ export default function Categorias(){
                     </div>
                 </div>
                 <div class = "caja item5">
-                    <img class="img-item5" src="/img/categoria-papeleria.png" />
+                    <img class="img-item5" src="/img/categoria-papeleria.png" alt=""/>
                     <div class="caja-texto5">
                         <h1>Todo en Papelería</h1>
                         <p>Fundas, Audifonos, cables, cargadores, soportes...</p>
